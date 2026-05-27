@@ -1,3 +1,6 @@
+# !!! AI GENERATED ONLY !!!
+
+
 # ai-test
 
 A small full-stack sandbox: a Spring Boot backend with a MongoDB-backed
