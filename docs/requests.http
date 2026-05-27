@@ -1,3 +1,31 @@
 ### Hello endpoint — returns a simple greeting
 GET http://localhost:8080/api/hello
 Accept: application/json
+
+### List all todos (sorted by createdAt desc)
+GET http://localhost:8080/api/todos
+Accept: application/json
+
+### Create a new todo
+POST http://localhost:8080/api/todos
+Content-Type: application/json
+
+{
+  "title": "Buy milk"
+}
+
+### Get one todo by id (replace {id} with a value from the list response)
+GET http://localhost:8080/api/todos/{id}
+Accept: application/json
+
+### Update a todo (replace {id})
+PUT http://localhost:8080/api/todos/{id}
+Content-Type: application/json
+
+{
+  "title": "Buy oat milk",
+  "completed": true
+}
+
+### Delete a todo (replace {id})
+DELETE http://localhost:8080/api/todos/{id}
