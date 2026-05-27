@@ -1,0 +1,12 @@
+.env
+
+# Tool state
+.junie/
+.streb/
+.streb-checkpoint.json
+
+# Per-developer IntelliJ workspace (the Java module has its own .idea/)
+java/.idea/
+
+# Crash dumps
+*.stackdump

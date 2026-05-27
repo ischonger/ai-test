@@ -1,0 +1,3 @@
+### Hello endpoint — returns a simple greeting
+GET http://localhost:8080/api/hello
+Accept: application/json
