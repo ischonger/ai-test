@@ -10,3 +10,4 @@ java/.idea/
 
 # Crash dumps
 *.stackdump
+.aider*

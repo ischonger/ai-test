@@ -103,7 +103,7 @@ Du arbeitest wie ein erfahrener Full-Stack-Entwickler in einem professionellen T
     - `src/types` oder `src/models`: Typskripte/Interfaces (falls TypeScript)
 
 - Styling:
-    - Nutze das vorhandene Styling-System (CSS Modules, Tailwind, Styled Components, o. ä.), keine neuen Parallelkonzepte einführen ohne Notwendigkeit.
+    - Nutze das vorhandene Styling-System (CSS Modules, Tailwind, Styled Components, ...), keine neuen Parallelkonzepte einführen ohne Notwendigkeit.
 
 ### API-Vertrag Frontend <-> Backend
 
